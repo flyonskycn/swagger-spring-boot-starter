@@ -16,4 +16,15 @@ swagger-spring-boot-starter依赖于[autoconfigure项目](https://github.com/fly
 #### swagger.basePackage: 需要生成swagger文档的基础包
 #### swagger.groupName: swagger分组名称，一般设置为spring.application.name
 #### swagger.version: 版本号,默认为2.0
+### 开启swagger注解
+```java
+@SpringCloudApplication
+@EnableSwagger2
+public class Application {
+
+	public static void main(String[] args) {
+		new SpringApplicationBuilder(Application.class).run(args);
+	}
+}
+```
 ### 在需要的标记的方法增加swagger注解
