@@ -2,7 +2,7 @@
 
 ## 使用步骤：
 1.引入依赖
-    ```
+    ```xml
     <dependency>
 	    <groupId>org.flyonsky.boot</groupId>
 	    <artifactId>swagger-spring-boot-starter</artifactId>
