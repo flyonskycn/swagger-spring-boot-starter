@@ -1,5 +1,7 @@
 # swagger-spring-boot-starter
 
+## swagger-spring-boot-starter依赖于[autoconfigure项目](https://github.com/flyonskycn/autoconfigure)
+
 ## 使用步骤：
 ### 引入依赖
 ```xml
