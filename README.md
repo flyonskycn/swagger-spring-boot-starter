@@ -42,7 +42,7 @@ public class TimeController {
 }
 ```
 ### 注意点
-**通过spring mvc注解的controller,必须要设置名称，需不能使用默认名称,如:@GetMapping("currentime")**
+**通过spring mvc注解的controller,必须要设置名称，不能使用默认名称,如:@GetMapping("currentime"),否则swagger不能正确生成文档**
 
 ## 样例
 [样例参见](https://github.com/flyonskycn/micro-service-study/tree/master/swaggerdemo)
